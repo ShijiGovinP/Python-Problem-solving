@@ -1,13 +1,11 @@
 def find_middle_character(s):
     length = len(s)
-    middle = length // 2  # Calculate the middle index
+    middle = length // 2 
     
-    if length % 2 == 0:  # If the length is even
+    if length % 2 == 0:  
         return s[middle - 1:middle + 1]
-    else:  # If the length is odd
+    else:  
         return s[middle]
-
-# Example usage
 string1 = "hello"
 string2 = "python"
 
