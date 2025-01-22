@@ -1,5 +1,5 @@
 string = "Hello, World!"
-reversed_string = ""
+string = ""
 for char in string:
-    reversed_string = char + reversed_string
-print(reversed_string)
+    string = char + string
+print(string)
