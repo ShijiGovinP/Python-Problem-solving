@@ -1,4 +1,4 @@
-def find_(s):
+def find(s):
     length = len(s)
     middle = length // 2 
     if length % 2 == 0:  
