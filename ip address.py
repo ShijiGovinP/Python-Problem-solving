@@ -8,6 +8,6 @@ def find(ip):
     return True
 ipaddress = "192.163.72.102"
 if find(ipaddress):
-    print(f"{ipaddress} is a valid IPv4 address.")
+    print(ipaddress, "is a valid IPv4 address.")
 else:
-    print(f"{ipaddress} is not a valid IPv4 address.")
+    print(ipaddress, "is not a valid IPv4 address.")
